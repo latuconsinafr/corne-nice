@@ -75,10 +75,10 @@
             //                    | OS_SFT/GUI |     | SPC |   | BSP |     | OS_SFT/CTL |
 
             bindings = <
-&trans  &kp EXCL          &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPS  &kp STAR  &kp LPAR   &kp RPAR       &trans
-&trans  &ext_power EP_ON  &trans  &trans    &trans      &trans         &kp MINUS  &kp LBKT  &kp RBKT  &kp EQUAL  &kp PLUS       &trans
-&trans  &trans            &trans  &trans    &trans      &trans         &kp UNDER  &kp LBRC  &kp RBRC  &kp PIPE   &kp BACKSLASH  &trans
-                                  &trans    &trans      &trans         &trans     &trans    &trans
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPS  &kp STAR  &kp LPAR   &kp RPAR       &trans
+&trans  &trans    &trans  &trans    &trans      &trans         &kp MINUS  &kp LBKT  &kp RBKT  &kp EQUAL  &kp PLUS       &trans
+&trans  &trans    &trans  &trans    &trans      &trans         &kp UNDER  &kp LBRC  &kp RBRC  &kp PIPE   &kp BACKSLASH  &trans
+                          &trans    &trans      &trans         &trans     &trans    &trans
             >;
         };
 
